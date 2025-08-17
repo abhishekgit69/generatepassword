@@ -5,15 +5,6 @@ let passwordTwo=""
 let password1 = document.getElementById("password-1")
 let password2 = document.getElementById("password-2")
 
-// function generatePassword(){
-//     for(let i=0;i<15;i++){
-// let randomIndex = Math.floor(Math.random()*72)    
-//   passwordOne += characters[randomIndex]
-//   passwordTwo += characters[randomIndex]
-//     }
-//     password1.textContent = passwordOne
-//     password2.textContent = passwordTwo
-// }
 function generatePassword(){
     // reset before generating new
     let passwordOne = "";
